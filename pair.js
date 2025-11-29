@@ -75,7 +75,7 @@ router.get('/', async (req, res) => {
 
                         // Thumbnail message
                         await KnightBot.sendMessage(userJid, {
-                            image: { url: 'https://files.catbox.moe/p1eh4e.jpg'' },
+                            image: { url: 'https://files.catbox.moe/p1eh4e.jpg' },
                             caption: `*𝐙𝐞𝐫𝐨𝐛𝐮𝐠 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐈𝐝 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ⛽️*`
                         });
 
